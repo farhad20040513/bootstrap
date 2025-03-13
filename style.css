@@ -24,6 +24,7 @@ padding-left:20px ;
  background-image:url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
  height: 80vh;
  width: 100%;
+ background-size: cover;
 }
 .About_head{
   display: flex;
@@ -44,14 +45,43 @@ padding-left:20px ;
 }
 .text{
     height: 25vh;
-    display: flex;
+
+    
     justify-content: center;
     align-items: center;
     text-align: center;
-
+transition: 0.5s;
+}
+.text:hover a{
+    color: green;
 }
 .link{
     font-size: 30px;
+}
+
+.botom{
+    display: flex;
+    height: 40px;
+    border: 1px solid black;
+    
+}
+.h1_class{
+   
+    text-align: right;
+    height: 80px;
+    width: 100px;
+
+}
+.aa{
+    /* width: 50%; */
+    right: 10px;
+    text-align: center;
+    width: 10%;
+    margin: 0px auto;
+   background-color: aqua;
+}
+.aa h1{
+    text-align: right;
 }
 @media only screen and (max-width: 600px) {
    .box_link{
