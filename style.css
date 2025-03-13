@@ -1,0 +1,65 @@
+.navbar{
+    display: flex;
+ justify-content: space-between;
+   background-color:yellow ;
+   width: 100%;
+   height: 100px;
+   max-width: 100%;
+   align-items: center;
+}
+.nav_Name{
+padding-left:20px ;
+    
+}
+.box_link{
+    display: flex;
+    gap: 10px;
+    
+}
+.box_link:hover{
+    transition: 0.5s;
+    color: gray;
+}
+.About{
+ background-image:url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
+ height: 80vh;
+ width: 100%;
+}
+.About_head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.icon{
+    display: none;
+}
+.basliq{
+    font-size: 40px;
+}
+.About_text{
+    top: 20px;
+    height: 100vh;
+  
+}
+.text{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.link{
+    font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+   .box_link{
+    display: none;
+   }
+   .icon{
+    display: block;
+   }
+
+   
+  }
